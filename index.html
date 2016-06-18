@@ -1,0 +1,64 @@
+<div class="container">
+  <div class="well">
+    <center>
+        <h1>Bootstrap Slider</h1>
+      <h4>With Interval Ticks and Current Value Labels</h4>
+        </center>
+  </div>
+
+  <div class="panel panel-default">
+    <div class="panel-heading">
+      <h3 class="panel-title">File Operations</h3>
+    </div>
+    <div class="panel-body">
+      <div class="row">
+        <div class="col-sm-6">
+          <button class="btn btn-link" data-dismiss="modal" id="perspectiveGridCreateFileButton" type="button"><i class="fa fa-file-o fa-lg"></i>
+            <span data-i18n="ns.perspectiveList:showNewFileDialog">Advanced File Creation</span></button>
+        </div>
+        <div class="col-sm-6">
+          <div class="btn-group">
+            <button class="btn btn-link" data-toggle="dropdown" id="perspectiveGridGroupingButton" title="Group" type="button"><i class="fa fa-group fa-lg"></i> Group Files
+              <span class="caret"></span></button>
+            <ul class="dropdown-menu" id="perspectiveGridGroupingMenu">
+              <li><a title="Ungroup all elementes"><i class="fa fa-times-circle"></i> Ungroup</a></li>
+              <li class="divider"></li>
+              <li><a key="day" group="Day"><i class="fa fa-group fa-fw"></i> Group by Day</a></li>
+              <li><a key="month" group="Month"><i class="fa fa-group fa-fw"></i> Group by Month</a></li>
+              <li><a key="year" group="Year"><i class="fa fa-group fa-fw"></i> Group by Year</a></li>
+              <li><a key="OTB" group="Common Tags"><i class="fa fa-group fa-fw"></i> Group by Common Tags</a></li>
+              <li><a key="GTD" group="Getting Things Done"><i class="fa fa-group fa-fw"></i> Group by Getting Things Done</a></li>
+              <li><a key="PRI" group="Priorities"><i class="fa fa-group fa-fw"></i> Group by Priorities</a></li>
+              <li><a key="REV" group="Ratings"><i class="fa fa-group fa-fw"></i> Group by Ratings</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="panel panel-default">
+    <div class="panel-heading">
+      <h3 class="panel-title">View Settings</h3>
+    </div>
+    <div class="panel-body form-inline">
+      <div class="row">
+        <div class="col-sm-6 form-group">
+          <label for="grid-file-tile-size" class="slider-label">
+            <i class="fa fa-file-image-o fa-lg"></i> Tile Size:
+          </label>
+          <div class="slider-value">#</div>
+
+          <input id="grid-file-tile-size" type="text" />
+        </div>
+        <div class="col-sm-6">
+          <div class="toggle btn btn-success image-switch" data-toggle="toggle" style="width: 135px; height: 30px;">
+            <input checked="" id="grid-file-tile-sizing" type="checkbox">
+            <div class="toggle-group">
+              <label class="btn btn-success toggle-on"><i class="fa fa-expand"></i><span class="text">Grow</span></label>
+              <label class="btn btn-danger active toggle-off"><i class="fa fa-compress"></i><span class="text">Shrink</span></label><span class="toggle-handle btn btn-default"></span></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

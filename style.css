@@ -1,0 +1,25 @@
+#grid-file-tile-size-slider .slider-selection {
+  background: #BABABA;
+}
+
+.slider-label {
+  width: 100px;
+}
+ 
+label.slider-tick-label:hover,
+{
+    cursor: pointer;
+    color: #149bdf;
+}
+div.slider-tick-label-active {
+  text-transform: uppercase;
+    color: #337ab7;
+}
+
+.slider-value {
+  display: inline-block;
+  padding-right: 15px;
+  font-size: large;
+  font-weight: bold;
+  min-width: 50px;
+}
